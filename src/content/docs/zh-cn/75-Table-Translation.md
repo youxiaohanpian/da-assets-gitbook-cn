@@ -1,0 +1,76 @@
+---
+title: 表格翻译
+description: D.A. Assets 文档
+---
+
+# 表格翻译
+
+{% stepper %}
+{% step %}
+要将表格从一种语言翻译成另一种语言，请使用 "**CSV Translator**" 工具。
+要打开它，请按截图所示进入上下文菜单。
+
+（图片：上下文菜单打开 CSV Translator）
+{% endstep %}
+
+{% step %}
+a) 在打开的窗口中，你需要输入你的 API 密钥。
+这里有一个视频教程，介绍如何获取 ChatGPT API 密钥。
+
+b) 输入你要用来翻译表格的模型名称。
+你可以在这个链接找到模型名称。
+"**gpt-4o-mini**" 是这项任务的绝佳选择。
+
+（图片：API 密钥和模型名称输入）
+{% endstep %}
+
+{% step %}
+选择包含你的表格配置的 Localizator（ScriptableObject）。
+无论配置中表格的来源如何，它都会被加载到 CSV Translator 中。
+
+（图片：Localizator 选择）
+{% endstep %}
+
+{% step %}
+选择表格中作为翻译**源**的列，以及翻译结果要写入的**目标**列。
+"**目标列**" 必须在选择 "**Language Table**" 之前存在于表格中。
+
+（图片：源列和目标列选择）
+{% endstep %}
+
+{% step %}
+选择两列后，你会看到一个按钮，显示文本将从哪种语言翻译到哪种语言。
+点击按钮，开始使用 ChatGPT 进行翻译。
+
+（图片：翻译方向按钮）
+{% endstep %}
+
+{% step %}
+GPT 翻译完表格后，资源将基于现有表格和新翻译创建一个新表格，然后提供将其保存为 CSV 文件的选项。
+会打开一个窗口，让你选择要保存文件的位置。
+不支持覆盖文件，所以如果你已经有一个同名文件，你需要重命名它。
+
+如果在翻译表格时遇到错误，请联系 [**Live Support**](https://da-assets.github.io/site/#support)。
+开发者会尽快回复；但请注意时区差异。
+
+（图片：保存 CSV 文件窗口）
+{% endstep %}
+
+{% step %}
+在左侧截图中，你可以看到表格翻译的结果。GPT 根据提示决定不翻译某些行。
+
+（图片：翻译结果对比）
+{% endstep %}
+{% endstepper %}
+
+---
+
+## Agent Instructions: Querying This Documentation
+
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://da-assets.gitbook.io/docs/table-translation.md?ask=<question>
+```

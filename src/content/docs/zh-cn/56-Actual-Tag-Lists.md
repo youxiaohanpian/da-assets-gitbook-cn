@@ -1,0 +1,74 @@
+---
+title: 标签列表 - Canvas / UITK / Nova
+description: D.A. Assets 文档
+---
+
+# 标签列表 - Canvas / UITK / Nova
+
+## Canvas 标签列表
+
+{% hint style="info" %}
+Canvas 组件的实际标签列表：
+
+* img
+* cont
+* btn
+* ignore
+* scroll
+* fld
+* pwd
+* ph
+* tg
+* tgr
+{% endhint %}
+
+---
+
+## UITK 标签列表
+
+{% hint style="info" %}
+UITK 组件的实际标签列表：
+
+* img
+* cont
+* ignore
+{% endhint %}
+
+---
+
+## Nova 标签列表
+
+{% hint style="info" %}
+Nova 组件的实际标签列表：
+
+* img
+* cont
+* ignore
+{% endhint %}
+
+---
+
+## 标签说明
+
+| 标签 | 说明 | 适用框架 |
+|------|------|---------|
+| `img` | 将组件标记为图像 | Canvas, UITK, Nova |
+| `cont` | 容器标签 | Canvas, UITK, Nova |
+| `btn` | 将组件标记为按钮 | Canvas |
+| `ignore` | 忽略此组件 | Canvas, UITK, Nova |
+| `scroll` | 滚动视图相关 | Canvas |
+| `fld` | 输入字段 | Canvas |
+| `pwd` | 密码字段 | Canvas |
+| `ph` | 占位符 | Canvas |
+| `tg` | 触发器 | Canvas |
+| `tgr` | 触发器根 | Canvas |
+
+---
+
+## 相关文档
+
+- **命名和标签:** naming-and-tags.md
+- **忽略标签:** ignore-tag.md
+- **UI.Button:** ui.button.md
+- **滚动视图:** scroll-view.md
+- **输入框:** input-field.md
