@@ -14,7 +14,7 @@ description: D.A. Assets 文档
 要使资产在导入布局时使用 **"FlowLayoutGroup"**，需要：
 
 1. **下载并安装** "Unity UI Extensions" 资产
-2. 在 **"[Dependency Manager](/docs/dependency-manager/info.md)"** 中激活 "Unity UI Extensions" 依赖项
+2. 在 **"[Dependency Manager](/docs/dependency-manager/info)"** 中激活 "Unity UI Extensions" 依赖项
 
 ## 配置说明
 
@@ -24,5 +24,5 @@ description: D.A. Assets 文档
 
 ## 参考文档
 
-- [Dependency Manager Info](/docs/dependency-manager/info.md)
+- [Dependency Manager Info](/docs/dependency-manager/info)
 - [Unity UI Extensions GitHub](https://github.com/Unity-UI-Extensions/com.unity.uiextensions)

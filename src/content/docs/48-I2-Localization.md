@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=Rn_Fv-oory8
 {% endstep %}
 
 {% step %}
-导入资产时，请按照 "[Dependency Manager Manual](/docs/dependency-manager/info.md)" 中的说明进行操作。
+导入资产时，请按照 "[Dependency Manager Manual](/docs/dependency-manager/info)" 中的说明进行操作。
 {% endstep %}
 
 {% step %}

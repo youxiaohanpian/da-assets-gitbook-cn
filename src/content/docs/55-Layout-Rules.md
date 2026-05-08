@@ -34,12 +34,12 @@ description: D.A. Assets 文档
 
 {% stepper %}
 {% step %}
-如果您希望某个组件作为单个图像导入，但默认情况下没有发生这种情况，请参阅 **"[图像合并](/docs/image-merging.md)"** 部分。
+如果您希望某个组件作为单个图像导入，但默认情况下没有发生这种情况，请参阅 **"[图像合并](/docs/image-merging)"** 部分。
 {% endstep %}
 
 {% step %}
 如果您希望组件内的组件不被合并成单个图像，\
-请参阅 **"[图像分割](/docs/image-splitting.md)"** 部分。
+请参阅 **"[图像分割](/docs/image-splitting)"** 部分。
 {% endstep %}
 
 {% step %}

@@ -18,7 +18,7 @@ description: D.A. Assets 文档
 （图片：Script Compilation 部分）
 
 ## Step 3
-从[表格](/docs/dependency-manager/table.md)中添加或删除与额外资源对应的行。
+从[表格](/docs/dependency-manager/table)中添加或删除与额外资源对应的行。
 
 ## Step 4
 点击 "**Apply**" 按钮。

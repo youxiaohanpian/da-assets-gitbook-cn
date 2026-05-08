@@ -12,5 +12,5 @@ description: D.A. Assets 文档
 
 ## 子页面链接
 
-- [Hierarchy](/context-menu/hierarchy.md)
-- [Tools menu](/context-menu/tools-menu.md)
+- [Hierarchy](/60-context-menu-hierarchy/)
+- [Tools menu](/context-menu/tools-menu)

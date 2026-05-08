@@ -1,13 +1,13 @@
 ---
-title: UITK Introduction（UI Toolkit 介绍）
+title: UI Toolkit（UI 工具包）
 description: D.A. Assets 文档
 ---
 
-# UITK Introduction（UI Toolkit 介绍）
+# UI Toolkit（UI 工具包）
 
 ## 概述
 
-本部分介绍如何将 Figma Converter for Unity 与 Unity UI Toolkit 配合使用。
+本页面介绍如何将 Figma Converter for Unity 与 Unity 的 UI Toolkit 配合使用。
 
 ## UI Toolkit 集成
 
@@ -36,5 +36,6 @@ description: D.A. Assets 文档
 
 ## 参考文档
 
-- [UITK Usage](/fcu-uitk/usage.md)
-- [UITK Additional Information](/fcu-uitk/additional-information.md)
+- [UITK Introduction](/fcu-uitk/introduction)
+- [UITK Usage](/fcu-uitk/usage)
+- [UITK Additional Information](/fcu-uitk/additional-information)

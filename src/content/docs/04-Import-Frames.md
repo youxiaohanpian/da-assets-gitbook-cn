@@ -33,5 +33,5 @@ description: D.A. Assets 文档
 
 ## 子页面
 
-- [Import from a project url](/fcu-for-developers/import-frames/import-from-a-project-url.md)
-- [Import from an offline copy of the project](/fcu-for-developers/import-frames/import-from-an-offline-copy-of-the-project.md)
+- [Import from a project url](/72-import-from-project-url/)
+- [Import from an offline copy of the project](/73-import-from-offline-copy/)

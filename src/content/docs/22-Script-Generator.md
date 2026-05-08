@@ -53,6 +53,6 @@ description: D.A. Assets 文档
 
 ## 子页面
 
-- [Serialization by Synchelpers](/script-generator/serialization-by-synchelpers.md)
-- [Serialization by Attributes](/script-generator/serialization-by-attributes.md)
-- [Serialization by GameObject name](/script-generator/serialization-by-gameobject-name.md)
+- [Serialization by Synchelpers](/script-generator/serialization-by-synchelpers)
+- [Serialization by Attributes](/script-generator/serialization-by-attributes)
+- [Serialization by GameObject name](/script-generator/serialization-by-gameobject-name)

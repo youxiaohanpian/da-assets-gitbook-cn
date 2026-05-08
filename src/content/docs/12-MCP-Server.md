@@ -15,6 +15,6 @@ description: D.A. Assets 文档
 
 ## 子页面链接
 
-- [MCP Server UI](/mcp-server/ui.md)
-- [Usage for Figma import](/mcp-server/usage-for-figma-import.md)
-- [Usage as an assistant](/mcp-server/usage-as-an-assistant.md)
+- [MCP Server UI](/57-mcp-server-ui/)
+- [Usage for Figma import](/58-mcp-usage-figma-import/)
+- [Usage as an assistant](/59-mcp-usage-assistant/)

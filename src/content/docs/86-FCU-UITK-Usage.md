@@ -8,7 +8,7 @@ description: D.A. Assets 文档
 {% stepper %}
 {% step %}
 在开始从 Figma 导入到 UI Toolkit 之前，你需要安装主资源 "**Figma Converter to Unity**"。
-要安装 "**Figma Converter to Unity**"，请按照 "[**开发者手册**](/docs/fcu-for-developers/introduction.md)" 中的说明进行操作。
+要安装 "**Figma Converter to Unity**"，请按照 "[**开发者手册**](/docs/fcu-for-developers/introduction)" 中的说明进行操作。
 {% endstep %}
 
 {% step %}
@@ -37,7 +37,7 @@ description: D.A. Assets 文档
 
 {% step %}
 之后，按照与 "**Figma Converter to Unity**" 资源相同的方式执行导入过程。
-更多详细信息请参阅 "开发者手册" — "[**导入帧**](/docs/fcu-for-developers/import-frames.md)" 部分。
+更多详细信息请参阅 "开发者手册" — "[**导入帧**](/docs/fcu-for-developers/import-frames)" 部分。
 {% endstep %}
 
 {% step %}

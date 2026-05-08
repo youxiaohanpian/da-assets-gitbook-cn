@@ -14,6 +14,6 @@ description: D.A. Assets 文档
 
 ## 子页面
 
-- [Auth with web browser](/fcu-for-developers/auth/auth-with-web-browser.md)
-- [Auth with token](/fcu-for-developers/auth/auth-with-token.md)
-- [Issues](/fcu-for-developers/auth/issues.md)
+- [Auth with web browser](/44-auth-web-browser/)
+- [Auth with token](/45-auth-token/)
+- [Issues](/46-auth-issues/)
