@@ -2,6 +2,16 @@
    Starlight 文档样式调整
    ============================================ */
 
+/* 缩小左侧边栏宽度，给内容区更多空间 */
+:root {
+  --sl-sidebar-width: 15rem;
+}
+
+/* 缩小右侧 TOC 栏宽度 */
+.right-sidebar-panel .sl-container {
+  width: calc(var(--sl-sidebar-width) * 0.75 - 2 * var(--sl-sidebar-pad-x)) !important;
+}
+
 /* 隐藏 markdown 内容里的 H1——Starlight 顶部已经用 frontmatter title 渲染了，避免双标题 */
 /* Starlight 将 markdown 第一段 h1 包裹在 level-h1 div 中 */
 .sl-markdown-content .sl-heading-wrapper.level-h1 {
@@ -12,7 +22,7 @@
 .sl-markdown-content h2 {
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   border-bottom: 1px solid var(--sl-color-gray-5);
   padding-bottom: 0.3rem;
 }
@@ -38,4 +48,11 @@
   padding: 0.5rem 1rem;
   border-radius: 0 4px 4px 0;
   font-size: 0.92rem;
+}
+
+/* 收紧段落间距，避免行距过大 */
+.sl-markdown-content p {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.65;
 }

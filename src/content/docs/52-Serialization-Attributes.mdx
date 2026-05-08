@@ -3,6 +3,8 @@ title: 脚本生成器 - 通过属性序列化
 description: D.A. Assets 文档
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 # 脚本生成器 - 通过属性序列化
 
 ## 概述
@@ -13,27 +15,19 @@ description: D.A. Assets 文档
 
 ## 使用步骤
 
-{% stepper %}
-{% step %}
-如果您有自己的脚本，可以跳过生成步骤。
-{% endstep %}
+<Steps>
 
-{% step %}
-将属性 `[FObject("frame_name")]` 添加到您的类，其中 **frame_name** 是 Figma 中此脚本所属的 frame 名称。
-{% endstep %}
+1. 如果您有自己的脚本，可以跳过生成步骤。
 
-{% step %}
-将属性 `[FObject("component_name")]` 添加到您的序列化字段，其中 **component_name** 是 Figma 中组件的名称，其游戏对象应序列化到此字段。
-{% endstep %}
+2. 将属性 `[FObject("frame_name")]` 添加到您的类，其中 **frame_name** 是 Figma 中此脚本所属的 frame 名称。
 
-{% step %}
-点击 **"Serialize Objects"** 按钮。
-{% endstep %}
+3. 将属性 `[FObject("component_name")]` 添加到您的序列化字段，其中 **component_name** 是 Figma 中组件的名称，其游戏对象应序列化到此字段。
 
-{% step %}
-游戏对象将根据您的设置序列化到字段中。
-{% endstep %}
-{% endstepper %}
+4. 点击 **"Serialize Objects"** 按钮。
+
+5. 游戏对象将根据您的设置序列化到字段中。
+
+</Steps>
 
 ---
 
@@ -67,6 +61,6 @@ public class MainPanelController : MonoBehaviour
 
 ## 相关文档
 
-- **脚本生成器主文档:** script-generator.md
-- **通过 SyncHelpers 序列化:** serialization-by-synchelpers.md
-- **通过 GameObject 名称序列化:** serialization-by-gameobject-name.md
+- **脚本生成器主文档:** /22-script-generator/
+- **通过 SyncHelpers 序列化:** /51-serialization-synchelpers/
+- **通过 GameObject 名称序列化:** /53-serialization-gameobject-name/

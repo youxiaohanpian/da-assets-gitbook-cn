@@ -47,7 +47,7 @@ export default defineConfig({
             { label: 'Google Fonts', link: '/47-google-fonts/' },
             { label: '按钮', link: '/10-buttons/' },
             { label: '阴影', link: '/11-shadows/' },
-            { label: 'D.A. Button', link: '/28-d.a.-button/' },
+            { label: 'D.A. Button', link: '/28-da-button/' },
           ],
         },
         {

@@ -3,6 +3,8 @@ title: 脚本生成器 - 通过 GameObject 名称序列化
 description: D.A. Assets 文档
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 # 脚本生成器 - 通过 GameObject 名称序列化
 
 ## 概述
@@ -13,24 +15,18 @@ description: D.A. Assets 文档
 
 ## 使用步骤
 
-{% stepper %}
-{% step %}
-如果您有自己的脚本，可以跳过生成步骤。
-{% endstep %}
+<Steps>
 
-{% step %}
-Frame 的 GameObject 名称必须与脚本名称匹配。\
-要序列化到字段的 GameObject 名称必须与字段名称匹配。
-{% endstep %}
+1. 如果您有自己的脚本，可以跳过生成步骤。
 
-{% step %}
-点击 **"Serialize Objects"** 按钮。
-{% endstep %}
+2. Frame 的 GameObject 名称必须与脚本名称匹配。\
+   要序列化到字段的 GameObject 名称必须与字段名称匹配。
 
-{% step %}
-资产将把 GameObject 序列化到与 GameObject 名称匹配的字段中。
-{% endstep %}
-{% endstepper %}
+3. 点击 **"Serialize Objects"** 按钮。
+
+4. 资产将把 GameObject 序列化到与 GameObject 名称匹配的字段中。
+
+</Steps>
 
 ---
 
@@ -77,6 +73,6 @@ HeaderFrame (Frame)
 
 ## 相关文档
 
-- **脚本生成器主文档:** script-generator.md
-- **通过 SyncHelpers 序列化:** serialization-by-synchelpers.md
-- **通过属性序列化:** serialization-by-attributes.md
+- **脚本生成器主文档:** /22-script-generator/
+- **通过 SyncHelpers 序列化:** /51-serialization-synchelpers/
+- **通过属性序列化:** /52-serialization-attributes/
