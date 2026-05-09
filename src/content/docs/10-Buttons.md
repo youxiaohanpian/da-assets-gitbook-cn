@@ -24,5 +24,5 @@ description: D.A. Assets 文档
 
 ## 设计手册参考
 
-- [UI.Button](/25-ui-button/)
-- [D.A. Button](/28-da-button/)
+- [UI.Button](/da-assets-gitbook-cn/25-ui-button/)
+- [D.A. Button](/da-assets-gitbook-cn/28-da-button/)

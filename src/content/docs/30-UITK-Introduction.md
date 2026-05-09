@@ -36,5 +36,5 @@ description: D.A. Assets 文档
 
 ## 参考文档
 
-- [UITK Usage](/fcu-uitk/usage)
-- [UITK Additional Information](/fcu-uitk/additional-information)
+- [UITK Usage](/da-assets-gitbook-cn/fcu-uitk/usage)
+- [UITK Additional Information](/da-assets-gitbook-cn/fcu-uitk/additional-information)

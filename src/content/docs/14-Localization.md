@@ -54,5 +54,5 @@ CSV 文件的分隔符设置。
 
 ## 子页面
 
-- [I2Localization](/localization/i2localization)
-- [D.A. Localizator](/localization/d.a.-localizator)
+- [I2Localization](/da-assets-gitbook-cn/localization/i2localization)
+- [D.A. Localizator](/da-assets-gitbook-cn/localization/d.a.-localizator)

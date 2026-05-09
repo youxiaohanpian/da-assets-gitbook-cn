@@ -34,5 +34,5 @@ description: D.A. Assets 文档
 
 ## 参考文档
 
-- [Dependency Manager](/81-dependency-manager-info/)
-- [Shadows and True Shadow asset](/85-shadows-and-true-shadow/)
+- [Dependency Manager](/da-assets-gitbook-cn/81-dependency-manager-info/)
+- [Shadows and True Shadow asset](/da-assets-gitbook-cn/85-shadows-and-true-shadow/)

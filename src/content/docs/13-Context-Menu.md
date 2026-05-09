@@ -12,5 +12,5 @@ description: D.A. Assets 文档
 
 ## 子页面链接
 
-- [Hierarchy](/60-context-menu-hierarchy/)
-- [Tools menu](/context-menu/tools-menu)
+- [Hierarchy](/da-assets-gitbook-cn/60-context-menu-hierarchy/)
+- [Tools menu](/da-assets-gitbook-cn/context-menu/tools-menu)

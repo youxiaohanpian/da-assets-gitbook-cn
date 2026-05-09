@@ -14,6 +14,6 @@ description: D.A. Assets 文档
 
 ## 子页面
 
-- [Auth with web browser](/44-auth-web-browser/)
-- [Auth with token](/45-auth-token/)
-- [Issues](/46-auth-issues/)
+- [Auth with web browser](/da-assets-gitbook-cn/44-auth-web-browser/)
+- [Auth with token](/da-assets-gitbook-cn/45-auth-token/)
+- [Issues](/da-assets-gitbook-cn/46-auth-issues/)

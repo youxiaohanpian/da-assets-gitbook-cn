@@ -20,7 +20,7 @@ description: D.A. Assets 文档
 
 ---
 
-导入资源时，请按照 "[依赖管理器手册](/81-dependency-manager-info/)" 中的说明进行操作。
+导入资源时，请按照 "[依赖管理器手册](/da-assets-gitbook-cn/81-dependency-manager-info/)" 中的说明进行操作。
 
 ---
 
@@ -37,7 +37,7 @@ description: D.A. Assets 文档
 ---
 
 导入后，**所有**在 Figma 布局中带有阴影的 **组件**都将拥有 "**TrueShadow**" 资源的**阴影**脚本。
-**要正确使用**此功能，请阅读手册中 "**设计师手册**" 的[资源部分](/85-shadows-and-true-shadow/)。
+**要正确使用**此功能，请阅读手册中 "**设计师手册**" 的[资源部分](/da-assets-gitbook-cn/85-shadows-and-true-shadow/)。
 
 （图片：应用了 TrueShadow 脚本的组件）
 

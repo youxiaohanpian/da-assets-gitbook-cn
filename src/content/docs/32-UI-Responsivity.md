@@ -42,4 +42,4 @@ Figma 中的 Constraints 会自动转换为 Unity 中的 RectTransform 约束设
 
 ## 参考文档
 
-- [Layout Rules](/fcu-for-designers/layout-rules)
+- [Layout Rules](/da-assets-gitbook-cn/fcu-for-designers/layout-rules)

@@ -46,4 +46,4 @@ input - email
 
 ## 参考文档
 
-- [Text & Fonts](/fcu-for-developers/text-and-fonts)
+- [Text & Fonts](/da-assets-gitbook-cn/fcu-for-developers/text-and-fonts)

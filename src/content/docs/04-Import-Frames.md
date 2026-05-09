@@ -33,5 +33,5 @@ description: D.A. Assets 文档
 
 ## 子页面
 
-- [Import from a project url](/72-import-from-project-url/)
-- [Import from an offline copy of the project](/73-import-from-offline-copy/)
+- [Import from a project url](/da-assets-gitbook-cn/72-import-from-project-url/)
+- [Import from an offline copy of the project](/da-assets-gitbook-cn/73-import-from-offline-copy/)

@@ -27,4 +27,4 @@ Figma 和 Unity 中的字体渲染原则不同，因此**您可能需要**对 Un
 
 ## 参考文档
 
-- [Text & Fonts](/fcu-for-developers/text-and-fonts)
+- [Text & Fonts](/da-assets-gitbook-cn/fcu-for-developers/text-and-fonts)
