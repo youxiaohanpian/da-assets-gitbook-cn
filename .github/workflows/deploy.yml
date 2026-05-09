@@ -32,6 +32,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Download assets from GitBook CDN
+        run: |
+          mkdir -p public/files
+          for id in 2dURuFOyjYIZlWLTnoeS 3uRW3wCwBHbU70Cy6e05 4UT3RznkgcHY5IV5cHIP BgEl4ciuyYVmX7MUlLzS IHSgS03k6EeAztU0R37g LCW3K4g66Hcj5u3fehV9 SoWCJ4E2SfKiJavPlBso U0y3i5QwmwfFK1O7VOxc fwtvd2K3rOweyrzSSXyC l6ELN6omciJ4eEADBDXB lOkyvNGvAyDaTC3BYPoA rr4k9k82mjW0FhuapV56 tsk3PrTCnjHXTBjmA5N6 wDTwqwwpmj2CwTvBbx34; do
+            curl -sL "https://cdn.gitbook.com/files/${id}" -o "public/files/${id}" || true
+          done
+
       - name: Build
         run: npm run build
         env:

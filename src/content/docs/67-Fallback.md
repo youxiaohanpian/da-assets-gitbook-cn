@@ -3,6 +3,8 @@ title: Fallback - 备用系统
 description: D.A. Assets 文档
 ---
 
+import { Aside } from '@astrojs/starlight/components';
+
 # Fallback - 备用系统
 
 ## 概述
@@ -23,9 +25,9 @@ Fallback（备用）系统用于在主翻译不可用时提供备用的翻译或
 
 ## 配置选项
 
-{% hint style="info" %}
+<Aside type="note">
 Fallback 系统的具体配置选项和详细说明，请参考 D.A. Localizator 的完整文档。
-{% endhint %}
+</Aside>
 
 ---
 
@@ -49,6 +51,6 @@ Fallback 系统的具体配置选项和详细说明，请参考 D.A. Localizator
 
 ## 相关文档
 
-- **D.A. Localizator 入门:** dal/get-started.md
-- **Bindings:** bindings.md
-- **Basic Setup:** basic-setup.md
+- **D.A. Localizator 入门:** /65-dal-get-started/
+- **Bindings:** /66-bindings/
+- **Basic Setup:** /24-basic-setup/

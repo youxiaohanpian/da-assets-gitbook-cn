@@ -2,14 +2,27 @@
    Starlight 文档样式调整
    ============================================ */
 
+/* 所有外链新标签页打开 */
+.sl-markdown-content a[href^="http"],
+.sl-markdown-content a[href^="https"] {
+  target: '_blank';
+  rel: 'noopener noreferrer';
+}
+
 /* 缩小左侧边栏宽度，给内容区更多空间 */
 :root {
   --sl-sidebar-width: 15rem;
 }
 
-/* 缩小右侧 TOC 栏宽度 */
+/* 缩小右侧 TOC 栏宽度，限制 Overview 区域大小 */
 .right-sidebar-panel .sl-container {
-  width: calc(var(--sl-sidebar-width) * 0.75 - 2 * var(--sl-sidebar-pad-x)) !important;
+  width: calc(var(--sl-sidebar-width) * 0.6) !important;
+  max-width: 200px;
+}
+
+/* 限制右侧边栏最大宽度 */
+aside.right-sidebar {
+  max-width: 220px;
 }
 
 /* 隐藏 markdown 内容里的 H1——Starlight 顶部已经用 frontmatter title 渲染了，避免双标题 */
@@ -22,7 +35,8 @@
 .sl-markdown-content h2 {
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid var(--sl-color-gray-5);
   padding-bottom: 0.3rem;
 }
@@ -30,15 +44,19 @@
 .sl-markdown-content h3 {
   font-size: 1.1rem;
   font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 /* 适当收紧代码块和表格的行高 */
 .sl-markdown-content pre {
   font-size: 0.85rem;
+  margin: 0.8rem 0;
 }
 
 .sl-markdown-content table {
   font-size: 0.9rem;
+  margin: 0.8rem 0;
 }
 
 /* 调整 blockquote 样式，减少视觉干扰 */
@@ -48,11 +66,30 @@
   padding: 0.5rem 1rem;
   border-radius: 0 4px 4px 0;
   font-size: 0.92rem;
+  margin: 0.8rem 0;
 }
 
 /* 收紧段落间距，避免行距过大 */
 .sl-markdown-content p {
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
-  line-height: 1.65;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* 调整列表项间距 */
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.sl-markdown-content li {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
+}
+
+/* 调整 hr 分隔线间距 */
+.sl-markdown-content hr {
+  margin: 1rem 0;
 }

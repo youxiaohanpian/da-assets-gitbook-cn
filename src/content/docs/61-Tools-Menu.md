@@ -58,6 +58,6 @@ description: D.A. Assets 文档
 
 ## 相关文档
 
-- **Context Menu 主文档:** context-menu.md
-- **Hierarchy 上下文菜单:** context-menu/hierarchy.md
-- **Scene Setup:** scene-setup.md
+- **Context Menu 主文档:** /13-context-menu/
+- **Hierarchy 上下文菜单:** /60-context-menu-hierarchy/
+- **Scene Setup:** /09-scene-setup/

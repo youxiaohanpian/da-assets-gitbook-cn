@@ -3,11 +3,13 @@ title: 阴影与 True Shadow 资源
 description: D.A. Assets 文档
 ---
 
+import { Aside } from '@astrojs/starlight/components';
+
 # 阴影与 True Shadow 资源
 
-{% hint style="info" %}
+<Aside type="note">
 视频手册：https://www.youtube.com/watch?v=ckyS96RmsY8
-{% endhint %}
+</Aside>
 
 从 2.0.0 版本开始，**资源支持导入 Figma 阴影**，因此**阴影**组件**不需要在布局导入之前禁用**。
 

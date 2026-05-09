@@ -53,6 +53,6 @@ Agent 使用 MCP（Model Context Protocol）协议与 Converter MCP 服务器通
 
 ## 相关文档
 
-- **MCP Server 主文档:** mcp-server.md
-- **MCP Server UI:** mcp-server/ui.md
-- **用于 Figma 导入:** mcp-server/usage-for-figma-import.md
+- **MCP Server 主文档:** /12-mcp-server/
+- **MCP Server UI:** /57-mcp-server-ui/
+- **用于 Figma 导入:** /58-mcp-usage-figma-import/
