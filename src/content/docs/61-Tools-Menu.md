@@ -7,7 +7,7 @@ description: D.A. Assets 文档
 
 ## 界面概览
 
-![Tools Menu 截图](https://youxiaohanpian.github.io/da-assets-gitbook-cn/files/IHSgS03k6EeAztU0R37g)
+![Tools Menu 截图](../files/IHSgS03k6EeAztU0R37g.png)
 
 ---
 
